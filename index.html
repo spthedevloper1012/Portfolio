@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="demo.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="logo">LOGO</div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#main-fst">About</a></li>
+        <li><a href="#skill-sec">Skills</a></li>
+        <li><a href="#portfolio">Portfoilo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+
+    <section class="home-hero parallax--bg" id="home">
+      <div class="container">
+        <h1 class="title parallax--box">
+          I am Smit Patel <span>A Front-end Developer and UI/UX Designer</span>
+        </h1>
+        <a href="#portfolio" class="button button-accent">See My Work</a>
+        <a href="#" class="button button-accent">Contact Me</a>
+      </div>
+    </section>
+    <!-- <section class="home-area">
+      <div class="container-FIRST">
+        <h1 class="line1">Hi,I'm Smit Patel</h1>
+        <span class="line2">A Front-end Developer</span>
+        <a href="" class="button btn1">See my work</a>
+        <a href="" class="button btn1">Contact Me</a>
+      </div>
+    </section> -->
+
+    <!-- About Section Start From here -->
+
+    <section id="main-fst">
+      <div class="container-fst">
+        <h1 class="heading"> About <span> me</span> </h1>
+          <div class="grid">
+              <div class="left">
+                  <img src="images/about.jpg" alt="">
+              </div>
+              <div class="right">
+                  <h4>Hey there!</h4>
+                  <h2>I'M SMIT PATEL</h2>
+                  <h3>Developer & Designer</h3>
+                  <p>Hello everyone, my name is Smit Patel and I am a Front End Developer
+                      from Ahmedabad, Gujarat. I am self-taught developer, passionate and
+                      very fast learner. I have learned how to program through various
+                      resources, currently I am learning on Freecodecamp and Udemy. I am
+                      eager to learn and grow - Everyday. My ambition is to make awesome
+                      websites, not just good enough.</p>
+                  <a href="#portfolio" class="butn">See My Work</a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+       <!-- About Section end here -->
+    
+    <!-- Skill section start here -->
+    
+    <section class="main-sec" id="skill-sec">
+
+      <h1 class="heading"> My <span>Skills</span> </h1>
+  
+      <div class="row">
+  
+          <div class="box">
+              <h3 class="title">Coding skills</h3>
+              <div class="progress">
+                  <h3> HTML5 <span>90%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> CSS3 <span>80%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> Javascript <span>55%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> Bootstrap <span>45%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+          </div>
+  
+          <div class="box">
+              <h3 class="title">Professional skills</h3>
+              <div class="progress">
+                  <h3> Web design <span>80%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> Web development <span>70%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> Graphic design <span>60%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+              <div class="progress">
+                  <h3> Seo marketing <span>50%</span> </h3>
+                  <div class="bar"><span></span></div>
+              </div>
+          </div>
+          </div>
+        </div>
+  </section>
+   
+  <!-- Skill section end here -->
+
+  <!-- Portfolio section end here -->
+
+  <section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span>my</span> portfolio </h1>
+
+    <div class="button-container">
+        <div class="btn" data-filter="all">All</div>
+        <div class="btn" data-filter="logo">Logo design</div>
+        <div class="btn" data-filter="web">Web Design</div>
+        <div class="btn" data-filter="app">Mobile app</div>
+        <div class="btn" data-filter="other">Other</div>
+    </div>
+
+    <div class="image-container">
+
+        <div class="box logo">
+            <img src="images/logo1.jpg" alt="">
+            <div class="info">
+                <h3>Logo Design</h3>
+            </div>
+        </div>
+
+        <div class="box logo">
+            <img src="images/logo2.jpg" alt="">
+            <div class="info">
+                <h3>Logo Design</h3>
+            </div>
+        </div>
+
+        <div class="box logo">
+            <img src="images/logo3.jpg" alt="">
+            <div class="info">
+                <h3>Logo Design</h3>
+            </div>
+        </div>
+
+        <div class="box web">
+            <img src="images/web1.jpg" alt="">
+            <div class="info">
+                <h3>Web Design</h3>
+            </div>
+        </div>
+
+        <div class="box web">
+            <img src="images/web2.jpg" alt="">
+            <div class="info">
+                <h3>Web Design</h3>
+            </div>
+        </div>
+
+        <div class="box web">
+            <img src="images/web3.jpg" alt="">
+            <div class="info">
+                <h3>Web Design</h3>
+            </div>
+        </div>
+
+        <div class="box app">
+            <img src="images/mobile1.jpg" alt="">
+            <div class="info">
+                <h3>Mobile apps</h3>
+            </div>
+        </div>
+
+        <div class="box app">
+            <img src="images/mobile2.jpg" alt="">
+            <div class="info">
+                <h3>Mobile apps</h3>
+            </div>
+        </div>
+
+        <div class="box app">
+            <img src="images/mobile3.jpg" alt="">
+            <div class="info">
+                <h3>Mobile apps</h3>
+            </div>
+        </div>
+
+        <div class="box other">
+            <img src="images/item1.png" alt="">
+            <div class="info">
+                <h3>Photography</h3>
+            </div>
+        </div>
+
+        <div class="box other">
+            <img src="images/item2.png" alt="">
+            <div class="info">
+                <h3>Analysis</h3>
+            </div>
+        </div>
+
+        <div class="box other">
+            <img src="images/item3.jpg" alt="">
+            <div class="info">
+                <h3>Marketing</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+  </body>
+</html>
